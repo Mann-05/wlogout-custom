@@ -1,0 +1,56 @@
+	* {
+    background-image: none;
+    box-shadow: none;
+}
+window {
+    background-image: url("icons/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button {
+background-color: transparent;
+
+border: none;
+border-radius: 0;
+
+min-width: 210px;
+min-height: 210px;
+margin: -45px 15px 75px 15px;
+
+
+color: transparent;
+font-size: 0;
+    background-repeat: no-repeat;
+    background-position: center 25%;
+    background-size: 190px;
+
+   
+}
+button:hover,
+button:focus {
+    background-color: transparent;
+    border: none;
+    background-size: 200px;
+    box-shadow: none;
+}
+
+#logout {
+    background-image: url("icons/logout.png");
+}
+#suspend {
+    background-image: url("icons/suspend.png");
+}
+
+#hibernate {
+    background-image: url("icons/hibernate.png");
+}
+
+#shutdown {
+    background-image: url("icons/shutdown.png");
+}
+
+#reboot {
+    background-image: url("icons/reboot.png");
+}
